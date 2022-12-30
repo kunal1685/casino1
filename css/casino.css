@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../html/images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.banner{
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.banner h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.banner p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.banner a{
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* ----------------------- section1 starts now ----------------------- */
+.inner{
+    max-width: 1050px;
+    margin: 80px auto;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1 img{
+    vertical-align: bottom;
+}
+.section1 .box{
+    width: 50%;
+}
+.section1 .A1 img{
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.section1 p{
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+    padding-right: 15px;
+}
+.section1 a{
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: rgb(244, 70, 70);
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+/* ------------- section2 starts now --------------- */
+.section2{
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+}
+.section2 p{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 20px 0px 50px;
+    line-height: 25px;
+}
+.section2 .box{
+    width: 23%;
+    padding: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.section2 .box:hover{
+    border: 1px solid rgb(244, 70, 70);
+}
+
+.section2 .box img{
+    width: 35%;
+}
+
+.section2 .box h4{
+    position: relative;
+    top: 95px;
+    font-weight: 200;
+}
+.section2 .box .last{
+    top: 80px;
+}
+
+.section2 a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 70px;
+    border: 2px solid rgb(244, 70, 70);
+    border-radius: 20px;
+    transition: .5s;
+}
+.section2 a:hover{
+    background-color: rgb(244, 70, 70);
+}
+
+/* ------------- section3 starts now --------------- */
+.section3{
+    text-align: center;
+    color: #333;
+}
+.section3 p{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 20px 0px 50px;
+    line-height: 25px;
+}
+.section3 .box{
+    width: 32%;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+.section3 .box h2{
+    margin-top: 20px;
+    color: rgb(244, 70, 70);
+    font-weight: 600;
+}
+.section3 .box h1{
+    margin-top: 20px;
+    font-size: 60px;
+}
+.section3 .box p{
+    margin-bottom: 20px;
+}
+.section3 .box h1 span{
+    font-size: 20px;
+}
+.section3 .box h1 i{
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+}
+.section3 a{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 25px;
+    font-size: 14px;
+    background-color: rgb(244, 70, 70);
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+
+/* ------------- section4 starts now --------------- */
+.section4{
+    text-align: center;
+}
+.section4 h1{
+    margin-bottom: 40px;
+}
+.section4 h2{
+    margin: 20px;
+    font-weight: 500;
+}
+.section4 span{
+    margin: 0px 25px;
+}
+.section4 p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+/* ------------- section5 starts now --------------- */
+.section5{
+    text-align: center;
+}
+.section5 h1{
+    margin-bottom: 40px;
+}
+.section5 .details{
+    padding: 20px;
+}
+.section5 form{
+    width: 50%;
+}
+.section5 form input, select{
+    width: 95%;
+    height: 50px;
+    margin-right: 5%;
+}
+.section5 form input::placeholder, select, textarea{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+}
+
+.section5 form textarea{
+    width: 95%;
+    height: 175px;
+    margin-right: 5%;
+    padding-top: 10px;
+    color: #333;
+}
+.section5 a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(244, 70, 70);
+    padding: 6px 25px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.section5 .map{
+    width: 48%;
+}
+.section5 .map iframe{
+    width: 100%;
+}
+
+/* ------------- footer starts now --------------- */
+footer{
+    text-align: center;
+    background-color: #333;
+    padding: 40px 0px;
+}
+footer .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .box p{
+    color: #fff;
+}
+footer .box img{
+    margin-right: 10px;
+}
+footer p{
+    margin-top: 30px;
+    color: lightgray;
+    font-size: 14px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .banner p{
+        line-height: 25px;
+    }
+    .section1 .box{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .section1 .box:nth-child(2){
+        margin-top: 50px;
+    }
+
+    /* section2 */
+    .text{
+        padding: 0px 25px;
+    }
+    .section2 p{
+        /* font-size: 12px;
+        font-weight: 200; */
+        margin: 20px 0px 20px;
+    }
+    .section2 .box{
+        width: 90%;
+        margin: 35px auto;
+    }
+    .section2 .box img{
+        width: 20%;
+    }
+    .section2 .box h4{
+        top: 80px;
+    }
+    .section2 a{
+        margin-top: 50px;
+    }
+
+    /* section3 */
+    .section3 .box{
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    /* section4 */
+    .section4 .box{
+        padding: 0px 10px;
+    }
+
+    /* section5 */
+    .section5 form{
+        width: 100%;
+        order: 1;
+    }
+    .section5 form input, select{
+        margin-right: 0%;
+    }
+    .section5 form textarea{
+        width: 95%;
+        margin-right: 0%;
+    }
+    .section5 .map{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+        order: 3;
+    }
+    .section5 .flex-box a{
+        margin-left: 10px;
+        order: 2;
+    }
+
+    /* footer */
+    footer .flex{
+        padding: 20px;
+    }
+    footer .box{
+        width: 90%
+    }
+    footer .flex{
+        padding: 0px;
+    }
+    footer p{
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 1075px) and (min-width: 768px) {
+    .section1{
+        padding: 20px;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    .section1 .box{
+        width: 47%;
+    }
+    .section1 p{
+        margin-top: 20px;
+    }
+    
+    /* section2 */
+    .section2 .text{
+        padding: 0px 40px;
+    }
+    .section2 .box{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .section2 .box:nth-child(3){
+        margin-top: 80px;
+    }
+    .section2 .box:nth-child(3) h4{
+        top: 115px;
+    }
+    .section2 .box:nth-child(4){
+        margin-top: 80px;
+    }
+
+    /* section3 */
+    .section3 .text{
+        padding: 0px 40px;
+    }
+    .section3 .box{
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    /* section4 */
+    .section4 .box{
+        padding: 0px 40px;
+    }
+}
